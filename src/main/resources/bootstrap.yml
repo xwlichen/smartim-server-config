@@ -1,0 +1,36 @@
+server:
+  port: 8888
+
+
+# 本地
+#spring:
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          search-locations: /Users/lichen/Documents/WorkSpace/Config/
+
+# git
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          #服务器仓库地址
+#          uri: https://github.com/xwlichen/smartim-config-resource
+          uri: https://github.com/xwlichen/config-server
+
+          #配置文件所在目录
+          search-paths: /config-resource
+          username: xwlichen
+          password: xw090704
+      #所在分支
+      label: master
+
+
+
+#          /Users/lichen/Documents/WorkSpace/Config
+
+#          search-locations: classpath:/properties/
+#          search-locations: /Users/lichen/Documents/WorkSpace/Config/
+#                     search-locations: /Users/lichen/Documents/WorkSpace/Java/config-server/src/main/resources/properties
