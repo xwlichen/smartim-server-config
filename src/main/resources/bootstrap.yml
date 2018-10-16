@@ -18,7 +18,7 @@ spring:
         git:
           #服务器仓库地址
 #          uri: https://github.com/xwlichen/smartim-config-resource
-          uri: https://github.com/xwlichen/config-server
+          uri: https://github.com/xwlichen/smartim-server-config
 
           #配置文件所在目录
           search-paths: /config-resource
