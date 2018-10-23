@@ -10,7 +10,7 @@ spring:
     host: 127.0.0.1
     port: 5672
     username: root
-    password: xw090704
+    password: 123456
 
 management:
   endpoints:
